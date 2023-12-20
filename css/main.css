@@ -133,3 +133,124 @@ video {
 #ex03 .recipe-title {
   color: var(--white);
 }
+
+/* Ex 1 */
+
+#ex01 .recipe:hover {
+  transform: scale(1.1);
+}
+
+#ex01 .recipe {
+  transition: 0.3s ease-in-out;
+}
+
+/* Ex 2 */
+
+#ex02 .recipe:hover img {
+  rotate: 8deg;
+}
+
+#ex02 .recipe img {
+  transition: 0.3s ease-in-out;
+}
+
+/* Ex 3 */
+
+#ex03 .recipe:hover img {
+  filter: opacity(0.6);
+}
+
+#ex03 .recipe img {
+  transition: 0.3s ease-in-out;
+}
+
+/* Ex 4 */
+
+#ex04 .recipe:hover h2 {
+  transform: translateX(20px);
+}
+
+#ex04 .recipe h2 {
+  transition: 0.3s ease-in-out;
+}
+
+/* Ex 5 */
+
+#ex05 .recipe:hover h2 {
+  transform: translateX(20px);
+}
+
+#ex05 .recipe h2 {
+  transition: 0.3s 0.2s ease-in-out;
+}
+
+/* Ex 6 */
+
+#ex06 .recipe:hover .recipe-header {
+  padding-bottom: 37px;
+}
+
+#ex06 .recipe-header {
+  transition: 0.2s ease-in-out;
+}
+
+/* Ex 7 */
+
+#ex07 .recipe:hover .recipe-header {
+  padding-bottom: 45px;
+  transition: 0.2s ease-in-out;
+}
+
+#ex07 .recipe:hover .recipe-title {
+  transform: translateY(35px);
+  transition: 0.3s 0.3s ease-in-out;
+}
+
+#ex07 .recipe-header {
+  transition: 0.3s 0.3s ease-in-out;
+}
+
+#ex07 .recipe-title {
+  transition: 0.2s ease-in-out;
+}
+
+/* Ex 8 */
+
+#ex08 .recipe:hover {
+  filter: drop-shadow(0 0 6px black);
+}
+
+#ex08 .recipe {
+  transition: 0.2s ease-in-out;
+}
+
+/* Ex 9 */
+
+#ex09 .recipe:hover .recipe-header {
+  transform: translateY(-35px);
+}
+
+#ex09 .recipe-header {
+  background-color: var(--white);
+  transition: 0.3s ease-in-out;
+}
+
+/* Ex 10 */
+
+#ex10 .recipe {
+  overflow: hidden;
+}
+
+#ex10 .recipe-image-bottom {
+  position: absolute;
+}
+
+#ex10 .recipe-image-top {
+  position: relative;
+  transform: translateX(-425px);
+  transition: 0.3s ease-in-out;
+}
+
+#ex10 .recipe:hover .recipe-image-top {
+  transform: translateX(0);
+}
